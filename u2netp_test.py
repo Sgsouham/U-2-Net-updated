@@ -54,7 +54,7 @@ def save_output(image_name,pred,d_dir):
 def main():
 
     # --------- 1. get image path and name ---------
-    model_name='u2net'# fixed as u2netp
+    model_name='u2netp'# fixed as u2netp
 
 
 
@@ -78,7 +78,7 @@ def main():
                                         num_workers=1)
 
     # --------- 3. model define ---------
-    net = U2NET(3,1)    
+    net = U2NETP(3,1)    
     if torch.cuda.is_available():
         net.load_state_dict(torch.load(model_dir))
         net.cuda()
