@@ -1,7 +1,5 @@
 # U^2-Net (U square net)
 
-Modified version of U2Net used for [demonstation](https://github.com/shreyas-bk/U-2-Net-Demo) purposes.
-
 ## Paper: [U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection](https://arxiv.org/pdf/2005.09007.pdf)
 
 [Xuebin Qin](https://webdocs.cs.ualberta.ca/~xuebin/), <br/>
@@ -24,8 +22,6 @@ torchvision 0.2.1
 glob  
 
 ## Usage
-
-Check [Demonstration](https://github.com/shreyas-bk/U-2-Net-Demo)
 
 **U-2-NET Paper:** [U2-Net: Going Deeper with Nested U-Structure for Salient Object Detection](https://arxiv.org/abs/2005.09007)
 
