@@ -59,7 +59,7 @@ def main():
 
 
     image_dir = os.path.join(os.getcwd(), 'images') # changed to 'images' directory which is populated while running the script
-    prediction_dir = os.path.join(os.getcwd(), 'results/') # changed to 'results' directory which is populated after the predictions
+    prediction_dir = os.path.join(os.getcwd(), 'results-p/') # changed to 'results' directory which is populated after the predictions
     model_dir = os.path.join(os.getcwd(), model_name + '.pth') # path to u2netp pretrained weights
 
     img_name_list = glob.glob(image_dir + os.sep + '*')
