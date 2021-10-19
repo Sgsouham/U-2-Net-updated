@@ -11,16 +11,6 @@
 
 __Contact__: xuebin[at]ualberta[dot]ca
 
-## Required libraries
-
-Python 3.6  
-numpy 1.15.2  
-scikit-image 0.14.0  
-PIL 5.2.0  
-PyTorch 0.4.0  
-torchvision 0.2.1  
-glob  
-
 ## Usage
 
 **U-2-NET Paper:** [U2-Net: Going Deeper with Nested U-Structure for Salient Object Detection](https://arxiv.org/abs/2005.09007)
